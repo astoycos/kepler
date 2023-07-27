@@ -1,0 +1,5 @@
+[workspace]
+members = ["xtask", "aya-attacher", "aya-attacher-common"]
+
+[patch.crates-io]
+aya = { git = "https://github.com/bpfd-dev/aya", branch="main" }
